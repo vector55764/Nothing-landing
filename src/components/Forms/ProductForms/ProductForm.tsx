@@ -9,7 +9,7 @@ type FormValues = {
   name: string;
   img: string;
   desc: string;
-  price: number | null;
+  price: number;
 };
 
 // const defaultValues: FormValues = {
