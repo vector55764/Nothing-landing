@@ -4,6 +4,5 @@ import { ghPages } from "vite-plugin-gh-pages";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Nothing-landing/",
   plugins: [react(), ghPages()],
 });
