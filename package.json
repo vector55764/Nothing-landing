@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vector55764.github.io/Nothing-landing",
-  "name": "landing",
+  "homepage": "https://vector55764.github.io/nothing-landing",
+  "name": "nothing-landing",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "dev:client": "vite",
     "dev:server": "json-server db.json",
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
